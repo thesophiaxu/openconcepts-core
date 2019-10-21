@@ -1,0 +1,37 @@
+{
+  "name": "openconcepts-core",
+  "version": "1.0.0",
+  "description": "OpenConcepts is a multi-domain, multi-purpose, elastic, and scalable semantic web implementation for the 21st century.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaojiXu/openconcepts-core.git"
+  },
+  "keywords": [
+    "semantic",
+    "web",
+    "knowledge",
+    "graph",
+    "wikidata"
+  ],
+  "author": "HaojiXu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HaojiXu/openconcepts-core/issues"
+  },
+  "homepage": "https://github.com/HaojiXu/openconcepts-core#readme",
+  "devDependencies": {
+    "@types/eventsource": "^1.1.2",
+    "@types/mongodb": "^3.3.6",
+    "@types/request": "^2.48.3",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "mongodb": "^3.3.3"
+  }
+}
